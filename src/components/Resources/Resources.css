@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  margin-top: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.main-resources {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+  justify-content: space-between;
+}

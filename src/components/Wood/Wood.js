@@ -10,20 +10,20 @@ export default function Wood() {
         </div>
         <div className="all-totals">
           <div className="totals">
-            <p>Weekly Wood</p>
-            <p>3123</p>
+            <p className="left">Weekly Wood</p>
+            <p className="right">3123</p>
           </div>
           <div className="totals">
-            <p>Weekly Lumber</p>
-            <p>6246</p>
+            <p className="left">Weekly Lumber</p>
+            <p className="right">6246</p>
           </div>
           <div className="totals">
-            <p>Banked</p>
-            <p>17537</p>
+            <p className="left">Banked</p>
+            <p className="right">17537</p>
           </div>
           <div className="totals">
-            <p>Mark Of Ent</p>
-            <p>48</p>
+            <p className="left">Mark Of Ent</p>
+            <p className="right">48</p>
           </div>
         </div>
       </div>
