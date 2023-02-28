@@ -3,7 +3,7 @@ import Wood from '../Wood/Wood.js';
 
 export default function Main() {
   return (
-    <div>
+    <div className="main">
       <Wood />
     </div>
   );
