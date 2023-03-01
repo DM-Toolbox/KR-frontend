@@ -1,0 +1,8 @@
+.header-sub {
+  display: flex;
+  height: 50px;
+  background-color: grey;
+
+  font-weight: bold;
+  align-items: center;
+}
