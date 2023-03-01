@@ -16,11 +16,11 @@
   border: 2px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(87, 42, 24);
+  border-color: rgb(87, 1, 1);
 
-  box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
-  -webkit-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
-  -moz-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
+  box-shadow: 4px 4px 5px 0px rgb(87, 1, 1);
+  -webkit-box-shadow: 4px 4px 5px 0px rgb(87, 1, 1);
+  -moz-box-shadow: 4px 4px 5px 0px rgb(87, 1, 1);
 }
 
 .hunting-all-totals {

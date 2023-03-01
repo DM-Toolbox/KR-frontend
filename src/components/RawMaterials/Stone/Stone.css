@@ -16,11 +16,11 @@
   border: 2px;
   border-style: solid;
   border-radius: 20px;
-  border-color: rgb(87, 42, 24);
+  border-color: rgb(61, 61, 61);
 
-  box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
-  -webkit-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
-  -moz-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
+  box-shadow: 4px 4px 5px 0px rgb(61, 61, 61);
+  -webkit-box-shadow: 4px 4px 5px 0px rgb(61, 61, 61);
+  -moz-box-shadow: 4px 4px 5px 0px rgb(61, 61, 61);
 }
 
 .stone-all-totals {
