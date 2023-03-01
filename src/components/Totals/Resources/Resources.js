@@ -8,7 +8,7 @@ import './Resources.css';
 
 export default function Resources() {
   return (
-    <div>
+    <div className="resource-background">
       <div className="resources-container">
         <div className="main-resources">
           <Wood />

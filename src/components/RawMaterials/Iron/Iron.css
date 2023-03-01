@@ -10,12 +10,15 @@
   align-items: center;
   background-color: grey;
 
-  height: 100%;
+  height: 325px;
   width: 500px;
 
   border: 2px;
   border-style: solid;
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
   border-color: rgb(122, 122, 122);
 
   box-shadow: 4px 4px 5px 0px rgb(122, 122, 122);
@@ -23,15 +26,11 @@
   -moz-box-shadow: 4px 4px 5px 0px rgb(122, 122, 122);
 }
 
-.iron-all-totals {
-  margin-bottom: 10px;
-}
-
 .iron-totals {
   display: flex;
   flex-direction: row;
   width: 490px;
-  height: 100%;
+  height: 50px;
 
   align-items: center;
   justify-content: space-evenly;
@@ -46,11 +45,10 @@
   display: flex;
 
   border: 1px;
-  border-right-style: solid;
+  border-style: solid;
 
   width: 100%;
-  height: 78.9px;
-  padding-left: 10px;
+  height: 55px;
   justify-content: center;
   align-items: center;
   color: rgb(255, 255, 255);
@@ -63,11 +61,10 @@
 .iron-right {
   display: flex;
   border: 1px;
-  border-left-style: solid;
+  border-style: solid;
 
   width: 100%;
-  height: 78.9px;
-  padding-left: 10px;
+  height: 55px;
   justify-content: center;
   align-items: center;
   color: rgb(122, 122, 122);
