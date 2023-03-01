@@ -1,0 +1,78 @@
+.stone-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stone-resource-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: grey;
+
+  height: 100%;
+  width: 500px;
+
+  border: 2px;
+  border-style: solid;
+  border-radius: 20px;
+  border-color: rgb(87, 42, 24);
+
+  box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
+  -webkit-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
+  -moz-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
+}
+
+.stone-all-totals {
+  margin-bottom: 10px;
+}
+
+.stone-totals {
+  display: flex;
+  flex-direction: row;
+  width: 490px;
+  height: 100%;
+
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+  border: 2px 0px 0px 0px;
+  border-style: solid;
+}
+
+.stone-left {
+  display: flex;
+
+  border: 1px;
+  border-right-style: solid;
+
+  width: 100%;
+  height: 78.9px;
+  padding-left: 10px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(168, 168, 168);
+  font-weight: bold;
+  font-size: 2em;
+  background-color: rgb(61, 61, 61);
+  margin: 0;
+}
+
+.stone-right {
+  display: flex;
+  border: 1px;
+  border-left-style: solid;
+
+  width: 100%;
+  height: 78.9px;
+  padding-left: 10px;
+  justify-content: center;
+  align-items: center;
+  color: rgb(61, 61, 61);
+  font-weight: bold;
+  font-size: 2.5em;
+  background-color: rgb(168, 168, 168);
+  margin: 0;
+}

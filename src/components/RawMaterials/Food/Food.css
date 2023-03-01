@@ -1,10 +1,10 @@
-.card {
+.food-card {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.resource-card {
+.food-resource-card {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -23,11 +23,11 @@
   -moz-box-shadow: 4px 4px 5px 0px rgb(87, 42, 24);
 }
 
-.all-totals {
+.food-all-totals {
   margin-bottom: 10px;
 }
 
-.totals {
+.food-totals {
   display: flex;
   flex-direction: row;
   width: 490px;
@@ -42,7 +42,7 @@
   border-style: solid;
 }
 
-.left {
+.food-left {
   display: flex;
 
   border: 1px;
@@ -53,14 +53,14 @@
   padding-left: 10px;
   justify-content: center;
   align-items: center;
-  color: rgb(87, 42, 24);
+  color: rgb(0, 173, 87);
   font-weight: bold;
   font-size: 2em;
-  background-color: rgb(190, 93, 54);
+  background-color: rgb(2, 80, 32);
   margin: 0;
 }
 
-.right {
+.food-right {
   display: flex;
   border: 1px;
   border-left-style: solid;
@@ -70,9 +70,9 @@
   padding-left: 10px;
   justify-content: center;
   align-items: center;
-  color: rgb(190, 93, 54);
+  color: rgb(2, 80, 32);
   font-weight: bold;
   font-size: 2.5em;
-  background-color: rgb(87, 42, 24);
+  background-color: rgb(0, 173, 87);
   margin: 0;
 }

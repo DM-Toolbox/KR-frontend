@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-template-rows: 30px 1fr;
+  border: 1px solid black;
+  width: 50vw;
+  align-items: center;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.sections {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  width: 50vw;
+  justify-items: center;
+}
+
+.headings {
+  background-color: red;
+  width: 200px;
+}
+
+.values {
+  display: flex;
+  justify-content: center;
+  background-color: grey;
+  width: 200px;
+}

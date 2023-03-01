@@ -8,6 +8,8 @@ export default function HeaderSub() {
       <div>
         <Link to="/home">Home</Link>
         <Link to="/resources">Resources</Link>
+        <Link to="/housing">Housing</Link>
+        <Link to="/citizen-happiness">Citizen Happiness</Link>
       </div>
     </div>
   );

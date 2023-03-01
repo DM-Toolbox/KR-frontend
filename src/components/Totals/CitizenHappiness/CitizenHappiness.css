@@ -1,0 +1,6 @@
+.happiness-container {
+  display: flex;
+  justify-content: space-around;
+  width: 500px;
+  border: 1px solid;
+}
