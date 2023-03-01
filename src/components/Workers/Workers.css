@@ -1,0 +1,109 @@
+.workers-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.workers-title {
+  display: flex;
+  justify-content: center;
+
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.workers {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+
+.workers-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+
+  width: 250px;
+
+  border: 1px solid black;
+}
+
+.workers-wood {
+  background-color: rgb(87, 42, 24);
+  color: rgb(190, 93, 54);
+
+  box-shadow: 10px 10px 5px 0px rgba(190, 93, 54, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(190, 93, 54, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(190, 93, 54, 0.75);
+}
+
+.workers-wood input {
+  background-color: rgb(190, 93, 54);
+  margin-bottom: 5px;
+  font-size: 2em;
+  width: 80%;
+}
+
+.workers-stone {
+  background-color: rgb(59, 59, 59);
+  color: rgb(177, 177, 177);
+
+  box-shadow: 10px 10px 5px 0px rgba(177, 177, 177, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(177, 177, 177, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(177, 177, 177, 0.75);
+}
+
+.workers-stone input {
+  background-color: rgb(177, 177, 177);
+  margin-bottom: 5px;
+  font-size: 2em;
+  width: 80%;
+}
+
+.workers-food {
+  background-color: rgb(2, 80, 32);
+  color: rgb(0, 173, 87);
+
+  box-shadow: 10px 10px 5px 0px rgba(0, 173, 87, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 173, 87, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 173, 87, 0.75);
+}
+
+.workers-food input {
+  background-color: rgb(0, 173, 87);
+  margin-bottom: 5px;
+  font-size: 2em;
+  width: 80%;
+}
+
+.workers-hunting {
+  background-color: rgb(87, 1, 1);
+  color: rgb(175, 0, 0);
+
+  box-shadow: 10px 10px 5px 0px rgba(175, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(175, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(175, 0, 0, 0.75);
+}
+
+.workers-hunting input {
+  background-color: rgb(175, 0, 0);
+  margin-bottom: 5px;
+  font-size: 2em;
+  width: 80%;
+}
+
+.workers-iron {
+  background-color: rgb(122, 122, 122);
+  color: white;
+
+  box-shadow: 10px 10px 5px 0px rgba(217, 217, 217, 0.75);
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(217, 217, 217, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(217, 217, 217, 0.75);
+}
+
+.workers-iron input {
+  background-color: white;
+  margin-bottom: 5px;
+  font-size: 2em;
+  width: 80%;
+}
